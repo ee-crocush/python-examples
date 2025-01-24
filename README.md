@@ -15,3 +15,5 @@
 [Датаклассы](data_classes.md)
 
 ## Django
+
+[База по Django](django.md)
