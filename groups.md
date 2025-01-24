@@ -17,15 +17,15 @@ grouped = groupby(data)
 for key, group in grouped:
 print(f'{key}: {list(group)}')
 
-print(20 \* '-')
+print(20 * '-')
 
 # Пример с объектами:
 
 data = [
-{'name': 'Alice', 'age': 25},
-{'name': 'Bob', 'age': 30},
-{'name': 'Charlie', 'age': 25},
-{'name': 'Diana', 'age': 30},
+    {'name': 'Alice', 'age': 25},
+    {'name': 'Bob', 'age': 30},
+    {'name': 'Charlie', 'age': 25},
+    {'name': 'Diana', 'age': 30},
 ]
 
 # Сортировка по ключу для корректной работы groupby
@@ -34,9 +34,9 @@ sorted_data = sorted(data, key=lambda x: x['age'])
 
 grouped = groupby(sorted_data, key=lambda x: x['age'])
 for age, group in grouped:
-print(f'Age {age}: {[item["name"] for item in group]}')
+    print(f'Age {age}: {[item["name"] for item in group]}')
 
-print(20 \* '-')
+print(20 * '-')
 ```
 
 ### 2. Использование collections.defaultdict
@@ -50,7 +50,7 @@ data = [('Alice', 'A'), ('Bob', 'B'), ('Charlie', 'A'), ('Diana', 'B')]
 
 grouped = defaultdict(list)
 for name, group in data:
-grouped[group].append(name)
+    grouped[group].append(name)
 
 print(grouped)
 
@@ -60,10 +60,10 @@ data = [1, 2, 2, 3, 3, 3, 4]
 grouped = defaultdict(int)
 
 for num in data:
-grouped[num] += 1
+    grouped[num] += 1
 
 print(grouped)
-print(20 \* '-')
+print(20 * '-')
 ```
 
 ### 3. Группировка вручную через словарь
@@ -72,17 +72,17 @@ print(20 \* '-')
 
 ```python
 data = [
-('apple', 'fruit'),
-('carrot', 'vegetable'),
-('banana', 'fruit'),
-('spinach', 'vegetable'),
+    ('apple', 'fruit'),
+    ('carrot', 'vegetable'),
+    ('banana', 'fruit'),
+    ('spinach', 'vegetable'),
 ]
 
 grouped = {}
 for item, category in data:
-if category not in grouped:
-grouped[category] = []
-grouped[category].append(item)
+    if category not in grouped:
+        grouped[category] = []
+        grouped[category].append(item)
 
 print(grouped)
 ```

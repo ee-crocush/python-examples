@@ -2,12 +2,12 @@
 
 [База](base.md) - Типы данных, is и ==, методы @staticmethod, контекстный менеджер, сборщик мусора, исключения, коллекции, ООП
 
-[Группировка](groups)
+[Группировка](groups.md)
 
-[Сортировка](sorters)
+[Сортировка](sorters.md)
 
-[Арги и кварги](args_kwargs)
+[Арги и кварги](args_kwargs.md)
 
-[Декораторы](decorators)
+[Декораторы](decorators.md)
 
-[Датаклассы](data_classes)
+[Датаклассы](data_classes.md)

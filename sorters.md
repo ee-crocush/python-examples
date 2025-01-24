@@ -23,9 +23,9 @@ print(20 \* '-')
 # sorted лямбы
 
 data = [
-{'name': 'Alice', 'score': 90},
-{'name': 'Bob', 'score': 85},
-{'name': 'Charlie', 'score': 95},
+    {'name': 'Alice', 'score': 90},
+    {'name': 'Bob', 'score': 85},
+    {'name': 'Charlie', 'score': 95},
 ]
 
 sorted_data = sorted(data, key=lambda x: x['name'], reverse=True)
