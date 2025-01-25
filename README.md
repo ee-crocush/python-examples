@@ -2,22 +2,46 @@
 
 ## Основы Python
 
-[База](base.md)
+[База](base/base.md)
 
-[Группировка](groups.md)
+[Группировка](base/groups.md)
 
-[Сортировка](sorters.md)
+[Сортировка](base/sorters.md)
 
-[Арги и кварги](args_kwargs.md)
+[Арги и кварги](base/args_kwargs.md)
 
-[Декораторы](decorators.md)
+[Декораторы](base/decorators.md)
 
-[Датаклассы](data_classes.md)
+[Датаклассы](base/data_classes.md)
 
-## ООП
+## ООП, архитектура и паттерны
 
-[ООП](oop.md)
+[ООП](base/oop.md)
+
+[Архитектура и Паттерны](base/patterns.md)
+
+## Асинхронность
+
+[ООП](base/async.md)
+
+## БД
+
+[БД PostgreSQL](base/bd.md)
 
 ## Django
 
-[База по Django](django.md)
+[База по Django](django/django.md)
+
+[Небольшая задачка Django](django/bd.md)
+
+[Тесты](django/tests.md)
+
+[Мини чат](django/chat.md)
+
+[Асинхронность](django/async.md)
+
+[Кэш и очереди](django/caches_queues.md)
+
+## Devops
+
+[Devops/Инфраструктура](base/devops.md)
