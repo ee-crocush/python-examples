@@ -1,47 +1,55 @@
 # Шпаргалки по python
 
-## Основы Python
+## 1. Основы Python
 
-[База](base/base.md)
+[1. База](base/base.md)
 
-[Группировка](base/groups.md)
+[2. Группировка](base/groups.md)
 
-[Сортировка](base/sorters.md)
+[3. Сортировка](base/sorters.md)
 
-[Арги и кварги](base/args_kwargs.md)
+[4. Арги и кварги](base/args_kwargs.md)
 
-[Декораторы](base/decorators.md)
+[5. Декораторы](base/decorators.md)
 
-[Датаклассы](base/data_classes.md)
+[6. Датаклассы](base/data_classes.md)
 
-## ООП, архитектура и паттерны
+## 2. ООП, архитектура и паттерны
 
-[ООП](base/oop.md)
+[1. ООП](base/oop.md)
 
-[Архитектура и Паттерны](base/patterns.md)
+[2. Архитектура и Паттерны](base/patterns.md)
 
-## Асинхронность
+## 3. Асинхронность
 
-[Асинхронность](base/async.md)
+[1. Асинхронность](base/async.md)
 
-## БД
+## 4. БД
 
-[БД PostgreSQL](base/bd.md)
+[1. БД PostgreSQL](base/bd.md)
 
-## Django
+## 5. Django
 
-[База по Django](django/django.md)
+[1. База по Django](django/django.md)
 
-[Небольшая задачка Django](django/bd.md)
+[2. Небольшая задачка Django](django/bd.md)
 
-[Тесты](django/tests.md)
+[3. Тесты](django/tests.md)
 
-[Мини чат](django/chat.md)
+[4. Мини чат](django/chat.md)
 
-[Асинхронность](django/async.md)
+[5. Асинхронность](django/async.md)
 
-[Кэш и очереди](django/caches_queues.md)
+[6. Кэш и очереди](django/caches_queues.md)
 
-## Devops
+## FastAPI
 
-[Devops/Инфраструктура](base/devops.md)
+[База](fastapi/base.md)
+
+[Простое приложение](fastapi/simple_app.md)
+
+[Приложение FastAPI](https://github.com/ee-crocush/simple_fast_api)
+
+## 7. Devops
+
+[1. Devops/Инфраструктура](base/devops.md)
