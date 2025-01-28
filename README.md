@@ -4,9 +4,10 @@
 [1. База](base/base.md)\
 [2. Группировка](base/groups.md)\
 [3. Сортировка](base/sorters.md)\
-[4. Арги и кварги](base/args_kwargs.md)\
-[5. Декораторы](base/decorators.md)\
-[6. Датаклассы](base/data_classes.md)
+[4. Алгоритмы сортировки](base/algoritms.md)
+[5. Арги и кварги](base/args_kwargs.md)\
+[6. Декораторы](base/decorators.md)\
+[7. Датаклассы](base/data_classes.md)
 
 ## 2. ООП, архитектура и паттерны
 [1. ООП](base/oop.md)\
