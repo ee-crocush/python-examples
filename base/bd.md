@@ -118,10 +118,10 @@ FOR VALUES FROM ('2025-01-01') TO ('2025-02-01');
 ### SQL-запрос для получения топ-5 пользователей по активности
 
 ```sql
-SELECT user_id, COUNT(\*) AS activity_count
+SELECT user_id, COUNT(*) AS activity_count
 FROM user_activity
 GROUP BY user_id
-ORDER BY activity_count DESC
+ORDER BY activity_count
 LIMIT 5;
 ```
 
@@ -130,4 +130,3 @@ LIMIT 5;
 - user_activity — таблица с логами активности (например, действия пользователей)
 - COUNT(\*) подсчитывает количество записей для каждого пользователя.
 - LIMIT 5 возвращает 5 самых активных пользователей.
-=
