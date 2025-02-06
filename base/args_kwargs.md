@@ -29,11 +29,11 @@ some_kwargs(a=1, b=2, c=3)
 # Распаковка *args
 
 args = (1, 2, 3)
-some_args(\*args)
+some_args(*args)
 
 # Распаковка **kwargs
 
 kwargs = {'a': 1, 'b': 2, 'c': 3}
-some_kwargs(\*\*kwargs)
+some_kwargs(**kwargs)
 
 ```
