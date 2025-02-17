@@ -2,6 +2,7 @@ from abc import ABC, abstractmethod
 from dataclasses import dataclass
 
 
+# Про Наследование
 class Animal(ABC):
     def __init__(self, age, name):
         if age < 0:
@@ -28,6 +29,7 @@ class Animal(ABC):
         print(f'{self.name} живет уже {self.age} {msg}')
 
 
+# Про наследование и инкапсуляцию
 class Cat(Animal):
     def __init__(self, *args, **kwargs):
         self.__paws_count: int = 4
@@ -66,6 +68,7 @@ class Cat(Animal):
         print('Котик скачет')
 
 
+# Че за датаклассы? разбираемся
 @dataclass(order=True)
 class PositivePoint:
     x: int
